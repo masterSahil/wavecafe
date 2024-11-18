@@ -1,0 +1,678 @@
+@media screen and (max-width: 400px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 20vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 12.5vw;
+        margin-top: 2vw;
+    }
+    .img{
+        margin-left: 10vw;
+        height: 7vw;
+        width: 9vw;
+    }
+    #img1, #img3, #img4{
+        width: 9vw;
+    }
+    .content3{
+        margin-left: 6vw;
+        width: 90vw;
+    }
+    .logo{
+        width: 15vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 30vw;
+    }
+    .price{
+        margin-left: 2vw;
+        font-size: 20px;
+    }
+    .para3{
+        font-size: 14px;
+    }
+    .content2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #content2, #content4{
+        margin-left: 0;
+    }
+    .subContent2{
+        width: 88vw;
+        justify-content: start;
+    }
+    .para{
+        margin-left: 15vw;
+        font-size: x-large;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .subContent4{
+        margin-left: 6vw;
+        width: 90vw;
+    }
+    .subContent3{
+        flex-direction: column;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .content3{
+        width: 80vw;
+    }
+    .firstOne, .secondOne{
+        margin: 5vw 2.5vw;
+    }
+    .imgContent3{
+        margin-top: 3vw;
+        width: 60vw;
+    }
+    .about1, .about2{
+        width: 60vw;
+    }
+    .heading2{
+        text-align: center;
+    }
+    .para4, .para5{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .main3{
+        width: 90vw;
+        margin-bottom: 5vw;
+    }
+    .content5{
+        margin-left: 6vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu1, #menu2, #menu3{
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .content5{
+        margin-left: 6vw;
+    }
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 20vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 12.5vw;
+        margin-top: 2vw;
+    }
+    .img{
+        margin-left: 10vw;
+        height: 7vw;
+        width: 9vw;
+    }
+    #img1, #img3, #img4{
+        width: 9vw;
+    }
+    .content3{
+        margin-left: 6vw;
+        width: 90vw;
+    }
+    .logo{
+        width: 15vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 30vw;
+    }
+    .price{
+        margin-left: 2vw;
+        font-size: 20px;
+    }
+    .para3{
+        font-size: 14px;
+    }
+    .content2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #content2, #content4{
+        margin-left: 0;
+    }
+    .subContent2{
+        width: 88vw;
+        justify-content: start;
+    }
+    .para{
+        margin-left: 15vw;
+        font-size: x-large;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .subContent4{
+        margin-left: 6vw;
+        width: 90vw;
+    }
+    .subContent3{
+        flex-direction: column;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .content3{
+        width: 80vw;
+    }
+    .firstOne, .secondOne{
+        margin: 5vw 2.5vw;
+    }
+    .imgContent3{
+        margin-top: 3vw;
+        width: 55vw;
+    }
+    .about1, .about2{
+        width: 55vw;
+    }
+    .heading2{
+        text-align: center;
+    }
+    .para4, .para5{
+        text-align: justify;
+        font-size: 18px;
+    }
+    .main3{
+        width: 87vw;
+        margin-bottom: 5vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .main3{
+        padding-bottom: 5vw;
+        margin-bottom: 5vw;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 12vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 12vw;
+    }
+    .img{
+        height: 5vw;
+        width: 8vw;
+    }
+    #img1, #img3, #img4{
+        width: 6vw;
+    }
+    .content3{
+        width: 76vw;
+    }
+    .subContent3{
+        flex-direction: column;
+        width: 85vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 30vw;
+    }
+    .price{
+        margin-left: 3vw;
+    }
+    .para3{
+        font-size: large;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .imgContent3, .about1, .about2{
+        width: 55vw;
+        height: auto;
+    }
+    .row-reverse{
+        padding-right: 1vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .secondOne{
+        margin-left: 0;
+        margin-right: 2vw;
+    }
+    .pleft{
+        padding-left: 1vw;
+    }
+    .para4, .para5{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .para{
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 12vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 10vw;
+    }
+    .img{
+        height: 5vw;
+        width: 8vw;
+    }
+    #img1, #img3, #img4{
+        width: 6vw;
+    }
+    .content3{
+        width: 60vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 25vw;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .imgContent3, .about1, .about2{
+        width: 30vw;
+        height: auto;
+    }
+    .row-reverse{
+        padding-right: 1vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .secondOne{
+        margin-left: 0;
+        margin-right: 2vw;
+    }
+    .pleft{
+        padding-left: 1vw;
+    }
+    .para4, .para5{
+        font-size: 16px;
+    }
+    .para4{
+        margin-top: -6vw;
+    }
+    .about1, .about2{
+        margin-bottom: 1vw;
+    }
+    .para{
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 10vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 8vw;
+    }
+    .img{
+        height: 5vw;
+        width: 8vw;
+    }
+    #img1, #img3, #img4{
+        width: 6vw;
+    }
+    .content3{
+        width: 90vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 25vw;
+    }
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 10vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 8vw;
+    }
+    .img{
+        height: 5vw;
+        width: 8vw;
+    }
+    #img1, #img3, #img4{
+        width: 6vw;
+    }
+    .content3{
+        width: 60vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .imgContent3, .about1, .about2{
+        width: 30vw;
+        height: auto;
+    }
+    .row-reverse{
+        padding-right: 1vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .secondOne{
+        margin-left: 0;
+        margin-right: 2vw;
+    }
+    .pleft{
+        padding-left: 1vw;
+    }
+    .para4, .para5{
+        font-size: large;
+    }
+    .para4{
+        margin-top: -6vw;
+    }
+    .about1, .about2{
+        margin-bottom: 1vw;
+    }
+    .para{
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .main {
+        position: static;
+        margin-left: 0;
+    }
+    .main2 {
+       margin-left: 0; 
+       margin-bottom: 5vw; 
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 88vw;
+        height: 10vw;
+    }
+    .subContent2{
+        width: 42vw;
+        height: 8vw;
+    }
+    .img{
+        height: 5vw;
+        width: 8vw;
+    }
+    #img1, #img3, #img4{
+        width: 6vw;
+    }
+    .content3{
+        width: 60vw;
+    }
+    .logoText{
+        margin-top: 2.5vw;
+    }
+    .img2{
+        width: 25vw;
+    }
+    .container3{
+        margin-left: 0;
+    }
+    .imgContent3, .about1, .about2{
+        width: 30vw;
+        height: auto;
+    }
+    .about1, .about2{
+        margin-bottom: 1vw;
+    }
+    .row-reverse{
+        padding-right: 1vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .secondOne{
+        margin-left: 0;
+        margin-right: 2vw;
+    }
+    .pleft{
+        padding-left: 1vw;
+    }
+    .para4, .para5{
+        font-size: 20px;
+    }
+    .para4{
+        margin-top: -5vw;
+    }
+    .para{
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .content3{
+        width: 54vw;
+        margin-left: 3vw;
+    }
+    .subContent4{
+        margin-left: 3vw;
+    }
+    .price{
+        margin-left: 3vw;
+    }
+    .para3{
+        font-size: large;
+    }
+    .content2{
+        display: flex;
+        flex-direction: column;
+    }
+    #content2, #content4{
+        margin-left: 0;
+    }
+    .subContent2{
+        width: inherit;
+        justify-content: flex-start;
+    }
+    .img{
+        margin-left: 2vw;
+        width: 5vw;
+        margin-right: 5vw;
+    }
+    #img1, #img3, #img4{
+        height: 4vw;
+    }
+    .content3{
+        margin-left: 0;
+        width: 30vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .para4, .para5{
+        margin-left: 0;
+        font-size: large;
+    }
+    .heading2{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+    .content3{
+        width: 54vw;
+        margin-left: 3vw;
+    }
+    .subContent4{
+        margin-left: 3vw;
+    }
+    .price{
+        margin-left: 3vw;
+    }
+    .para3{
+        font-size: large;
+    }
+    .content2{
+        display: flex;
+        flex-direction: column;
+    }
+    #content2, #content4{
+        margin-left: 0;
+    }
+    .subContent2{
+        width: inherit;
+        justify-content: flex-start;
+    }
+    .img{
+        margin-left: 2vw;
+        width: 5vw;
+        margin-right: 5vw;
+    }
+    #img1, #img3, #img4{
+        height: 4vw;
+    }
+    .content3{
+        margin-left: 0;
+        width: 30vw;
+    }
+    .firstOne{
+        margin-left: 1vw;
+    }
+    .para4, .para5{
+        margin-left: 0;
+    }
+    .heading2{
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1101px) {
+    .logoText{
+        margin-top: 1vw;
+    }
+    .heading2{
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .container3{
+        margin-left: 45vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .content5{
+        width: 89vw;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .content5{
+        margin-left: 3vw;
+        width: 53vw;
+    }
+}

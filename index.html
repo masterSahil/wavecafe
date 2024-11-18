@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media2.css">
+    <link rel="shortcut icon" href="assets/img/icons/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <video src="assets/video/wave-cafe-video-bg.mp4" autoplay loop muted id="background-video" disablePictureInPicture></video>
+    <div class="mainContainer">
+        <div class="main">
+            <div class="container">
+                <img class="logo" src="assets/img/icons/logo.jpg" alt="logo">
+                <h1 class="logoText">Wave Cafe</h1>
+            </div>
+            <div class="container2">
+                <div class="content2">
+                    <div class="subContent2" id="content1">
+                        <img class="img" id="img1" src="assets/img/icons/2.jpg" alt="img">
+                        <p class="para">Drink Menu</p>
+                    </div>
+                    <div class="subContent2" id="content2">
+                        <img class="img" id="img2" id="aboutImg" src="assets/img/icons/3.jpg" alt="img">
+                        <p class="para">about us</p>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="subContent2" id="content3">
+                        <img class="img" id="img3" src="assets/img/icons/5.jpg" alt="img">
+                        <p class="para">Special items</p>
+                    </div>
+                    <div class="subContent2" id="content4">
+                        <img class="img" id="img4" src="assets/img/icons/7.jpg" alt="img">
+                        <p class="para">Contact</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main2" id="DrinkMenuSection">
+            <div class="content5">
+                <p id="menu1" class="para2 active">Iced Coffee</p>
+                <p id="menu2" class="para2">Hot Coffee</p>
+                <p id="menu3" class="para2">Fruit Juice</p>
+            </div>  
+            <div class="content4" id="contentMenu1">
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/iced-americano.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Iced Americano</h2>
+                        <h2 class="price">$10.25</h2>
+                        </div>
+                        <p class="para3">Rich espresso shot topped with cold water, served over ice for a refreshing twist. Perfect blend of strong and smooth.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/iced-cappuccino.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Iced cappuccino</h2>
+                        <h2 class="price">$12.50</h2>
+                        </div>
+                        <p class="para3">Chilled espresso, steamed milk, and velvety foam come together in a delightful summer treat. Creamy texture, intense coffee flavor.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/iced-espresso.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">iced espresso</h2>
+                        <h2 class="price">$14.25</h2>
+                        </div>
+                        <p class="para3">Bold, full-bodied espresso shot served over ice, ideal for those seeking an intense coffee kick. Pure, unadulterated espresso experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/iced-latte.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">iced latte</h2>
+                        <h2 class="price">$11.50</h2>
+                        </div>
+                        <p class="para3">Smooth espresso and steamed milk blended with ice, topped with a thin layer of foam. Creamy, balanced, and utterly refreshing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content4 hide" id="contentMenu2">
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/hot-americano.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">hot Americano</h2>
+                        <h2 class="price">$8.50</h2>
+                        </div>
+                        <p class="para3">Smooth espresso and hot water blend in perfect harmony, delivering a full-bodied and satisfying cup. A classic, refined coffee experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/hot-cappuccino.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">hot cappuccino</h2>
+                        <h2 class="price">$9.50</h2>
+                        </div>
+                        <p class="para3">Expertly balanced espresso, steamed milk, and frothy foam create a delightful, warming experience. A classic coffeehouse treat.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/hot-espresso.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">hot espresso</h2>
+                        <h2 class="price">$7.50</h2>
+                        </div>
+                        <p class="para3">Bold, intense, and concentrated, our espresso shot fuels your day. Pure, unadulterated energy.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/hot-latte.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">hot latte</h2>
+                        <h2 class="price">$6.50</h2>
+                        </div>
+                        <p class="para3">Rich espresso and steamed milk unite in a velvety, comforting cup. Warm and inviting, perfect for cozy mornings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content4 hide" id="contentMenu3">
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/smoothie-1.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Strawberry smoothie</h2>
+                        <h2 class="price">$12.50</h2>
+                        </div>
+                        <p class="para3">
+                            Sweet and luscious strawberries blended to perfection, delivering a delightful and revitalizing experience. Pure bliss in every sip.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/smoothie-2.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Red Berry smoothie</h2>
+                        <h2 class="price">$14.50</h2>
+                        </div>
+                        <p class="para3">Indulge in the antioxidant-rich blend of juicy red berries, bursting with flavor and vitality. A refreshing and healthy treat.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/smoothie-3.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Pineapple smoothie</h2>
+                        <h2 class="price">$16.50</h2>
+                        </div>
+                        <p class="para3">Tropical getaway in a cup! Our pineapple smoothie combines sweet and tangy flavors with a hint of paradise.
+                        </p>
+                    </div>
+                </div>
+                <div class="subContent4">
+                    <img class="img2" src="assets/img/smoothie-4.png" alt="dishImg">
+                    <div class="info">
+                        <div class="headers">
+                        <h2 class="heading">Spinach smoothie</h2>
+                        <h2 class="price">$18.50</h2>
+                        </div>
+                        <p class="para3">Rejuvenate with our green goddess, blending spinach, fresh fruits, and nutrients for a healthy boost. Refresh and detoxify your body.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container3" id="AboutSection">
+            <div class="main3">
+                <h2 class="heading2">About Wave Cafe</h2>
+                <div class="subContent3">
+                    <div class="imgContent3 pleft">
+                        <img src="assets/img/about-1.png" alt="about-1" class="about1">
+                    </div>
+                    <div class="content3 firstOne">
+                        <div class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit Aperiam culpa debitis itaque delectus cupiditate. esse sint rem tempore nesciunt Perspiciatis illo sed fugit corporis repudiandae earum.</div>
+                        <div class="para5">Lorem ipsum dolor sit amet consectetur adipisicing elit Aperiam culpa debitis itaque delectus cupiditate. esse sint rem tempore nesciunt Perspiciatis illo sed fugit corporis repudiandae earum.</div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="main3">
+                <h2 class="heading2">How we began</h2>
+                <div class="subContent3 row-reverse">
+                    <div class="imgContent3">
+                        <img src="assets/img/about-2.png" alt="about-2" class="about2">
+                    </div>
+                    <div class="content3 secondOne">
+                        <div class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit Aperiam culpa debitis itaque delectus cupiditate. esse sint rem tempore nesciunt Perspiciatis illo sed fugit corporis repudiandae earum.</div>
+                        <div class="para5">Lorem ipsum dolor sit amet consectetur adipisicing elit Aperiam culpa debitis itaque delectus cupiditate. esse sint rem tempore nesciunt Perspiciatis illo sed fugit corporis repudiandae earum.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main30" id="specialItems">
+            <div class="content30">
+                <div class="subContent30">
+                    <img src="assets/img/special-01.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item one</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+                <div class="subContent30">
+                    <img src="assets/img/special-02.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item second</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content30">
+                <div class="subContent30">
+                    <img src="assets/img/special-03.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item third</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+                <div class="subContent30">
+                    <img src="assets/img/special-04.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item fourth</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content30">
+                <div class="subContent30">
+                    <img src="assets/img/special-05.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item fifth</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+                <div class="subContent30">
+                    <img src="assets/img/special-06.jpg" alt="imgofSpecial_Items" class="img30">
+                    <div class="info30">
+                        <h2 class="heading30">Special Item six</h2>
+                        <p class="para30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nemo hic dolor. Tempora nesciunt perferendis reiciendis beatae maxime quo labore architecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main40" id="ContactUs">
+            <div class="content40">
+                <h2 class="heading40">Contact Wave</h2>
+                <p class="para40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur ipsa ad sit architecto Possimus error veritatis Sint ut autem quaerat architecto. </p>
+            </div>
+            <div class="content40">
+                <div class="formContent">
+                    <form action="index.html" method="post" class="form40">
+                        <br><input class="tag40" type="text" name="name" id="name" placeholder="Name" required>
+                        <br><input class="tag40" type="email" name="email" id="email" placeholder="Email-Id" required>
+                        <br><input class="tag40" type="tel" name="tel" id="tel" placeholder="Phone Number" required>
+                        <br><select class="tag40" name="city" id="city">
+                            <option value="0">Choose Country</option>
+                            <option value="1">India</option>
+                            <option value="2">Thailand</option>
+                            <option value="3">Australia</option>
+                            <option value="4">New Zealand</option>
+                            <option value="5">Australia</option>
+                            <option value="6">England</option>
+                        </select>
+                        <br><textarea class="tag40" name="message" id="msg" cols="30" rows="7" placeholder="Message Here...(optional)"></textarea>
+                        <div class="buttons40">
+                            <input type="reset" name="reset" id="reset" class="tag41">
+                            <input type="submit" name="submit" id="submit" class="tag41">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
