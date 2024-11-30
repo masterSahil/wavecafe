@@ -27,7 +27,7 @@ Project Structure
 The project is organized as follows:
 
 wavecafe/<br>
-│
+│<br>
 ├── index.html      # The main HTML file<br>
 ├── style.css       # The main stylesheet<br>
 ├── script.js       # JavaScript functionality<br>
