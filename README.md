@@ -26,12 +26,12 @@ To get started with the WaveCafe project locally on your computer, follow these 
 Project Structure
 The project is organized as follows:
 
-wavecafe/
+wavecafe/<br>
 │
-├── index.html      # The main HTML file
-├── style.css       # The main stylesheet
-├── script.js       # JavaScript functionality
-└── images/         # Folder containing image assets
+├── index.html      # The main HTML file<br>
+├── style.css       # The main stylesheet<br>
+├── script.js       # JavaScript functionality<br>
+└── images/         # Folder containing image assets<br>
 
 
 # WaveCafe Project<br>
