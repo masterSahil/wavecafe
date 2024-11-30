@@ -59,15 +59,6 @@ bash
 cd wavecafe
 Open the index.html File: Open the index.html file in any web browser to view the project.
 
-Project Structure
-The project is organized as follows:
-
-wavecafe/<br>
-│<br>
-├── index.html      # The main HTML file<br>
-├── style.css       # The main stylesheet<br>
-├── script.js       # JavaScript functionality<br>
-└── images/         # Folder containing image assets<br>
 
 **Technologies Used**<br>
 HTML & HTML5: Provides the structure of the web pages.
