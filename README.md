@@ -16,7 +16,7 @@ To get started with the WaveCafe project locally on your computer, follow these 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/wavecafe.git
+   git clone https://github.com/masterSahil/wavecafe.git
 
 2. **Navigate to the Project Folder:**
  bash: cd wavecafe
